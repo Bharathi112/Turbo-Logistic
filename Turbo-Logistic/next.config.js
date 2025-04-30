@@ -1,0 +1,10 @@
+module.exports = {
+    env: {
+      KEYCLOAK_URL: process.env.KEYCLOAK_URL,
+      KEYCLOAK_REALM: process.env.KEYCLOAK_REALM,
+      KEYCLOAK_CLIENT_ID: process.env.KEYCLOAK_CLIENT_ID,
+      KEYCLOAK_CLIENT_SECRET: process.env.KEYCLOAK_CLIENT_SECRET,
+      KEYCLOAK_ADMIN_USERNAME: process.env.KEYCLOAK_ADMIN_USERNAME,
+      KEYCLOAK_ADMIN_PASSWORD: process.env.KEYCLOAK_ADMIN_PASSWORD,
+    },
+  };

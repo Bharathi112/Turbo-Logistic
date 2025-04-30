@@ -1,0 +1,144 @@
+/* Form container */
+.formContainer {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
+  padding-bottom: 80px;
+}
+
+/* Section Styling */
+.section,
+.section2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: stretch;
+  width: 100%;
+}
+
+/* Form Row - Ensures each row is a vertical stack */
+.formRow {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 10px;
+  align-items: stretch;
+  width: 50%;
+  
+}
+
+/* Form Fields */
+.formField {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Form Labels */
+.formField label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+/* Input and Select Fields */
+.formField input,
+.formField select {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 12px;
+  width: 100%;
+}
+
+/* Select Styling */
+.formField select {
+  padding: 12px;
+}
+
+/* Button Container */
+.buttonContainer {
+  text-align: left;
+  width: 100%;
+}
+
+/* Submit Button - Left-aligned */
+.submitButton {
+  padding: 12px 80px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+}
+
+.heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Navigation Buttons (Placed at the Bottom, Centered) */
+.formNavigation {
+  display: flex;
+  justify-content:left;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Previous Button */
+.prevButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #f2f2f2;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+/* Next Button */
+.nextButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.nextButton:hover {
+  background-color: #45a049;
+}
+
+/* Media Queries for Responsiveness */
+@media (min-width: 600px) {
+  .formField {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .formContainer {
+    max-width: 1000px;
+  }
+}
